@@ -1,0 +1,25 @@
+{
+  "name": "221007_movie_with_alpha",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ics-creative/221007_movie_with_alpha.git",
+  "author": "ics-nishihara <nishihara@ics-web.jp>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "prettier": "prettier \"**/*.{css,scss,ts,js,html}\" --write",
+    "stylelint": "stylelint --fix src/assets/style/style.scss",
+    "format": "yarn run prettier && yarn run stylelint"
+  },
+  "devDependencies": {
+    "prettier": "2.7.1",
+    "sass": "1.55.0",
+    "stylelint": "14.12.1",
+    "stylelint-config-prettier-scss": "0.0.1",
+    "stylelint-config-recess-order": "3.0.0",
+    "stylelint-config-standard-scss": "5.0.0",
+    "vite": "3.1.3"
+  }
+}

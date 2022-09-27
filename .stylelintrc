@@ -1,0 +1,37 @@
+{
+  "extends": [
+    "stylelint-config-standard-scss",
+    "stylelint-config-prettier-scss",
+    "stylelint-config-recess-order"
+  ],
+  "ignoreFiles": ["public/**/*", "dist/**/*","wordpress/**/*"],
+  "rules": {
+    "selector-class-pattern": "^([a-z][a-zA-Z0-9]*)(_+[a-zA-Z0-9]+)*$|(is)-[a-zA-Z0-9]",
+    "scss/at-mixin-pattern": "^[a-z][a-zA-Z0-9]+$",
+    "scss/at-function-pattern": "^[a-z][a-zA-Z0-9]+$",
+    "scss/dollar-variable-pattern": "^[a-z][a-zA-Z0-9]+$",
+    "color-function-notation": "legacy",
+    "media-feature-name-no-vendor-prefix": null,
+    "no-descending-specificity": null,
+    "value-no-vendor-prefix": null,
+    "property-no-vendor-prefix": null,
+    "function-name-case": [
+      "lower",
+      { "ignoreFunctions": ["convertPxToRem", "common.convertPxToRem"] }
+    ],
+    "at-rule-no-unknown": [
+      true,
+      {
+        "ignoreAtRules": [
+          "include",
+          "mixin",
+          "use",
+          "forward",
+          "function",
+          "return",
+          "for"
+        ]
+      }
+    ]
+  }
+}
