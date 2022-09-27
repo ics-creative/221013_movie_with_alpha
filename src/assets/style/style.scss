@@ -2,3 +2,23 @@
   padding: 0;
   margin: 0;
 }
+
+.wrapper{
+  width: 1080px;
+  margin: 0 auto;
+}
+
+video,img {
+  background-image: repeating-conic-gradient(
+    LightGrey 0deg,
+    LightGrey 90deg,
+    white 90deg,
+    white 180deg,
+    LightGrey 180deg,
+    LightGrey 270deg,
+    white 270deg,
+    white 360deg
+  );
+  background-size: 24px 24px;
+
+}
