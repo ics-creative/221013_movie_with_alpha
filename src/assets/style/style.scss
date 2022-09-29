@@ -3,22 +3,22 @@
   margin: 0;
 }
 
-.wrapper{
+.wrapper {
   width: 1080px;
   margin: 0 auto;
 }
 
-video,img {
+video,
+img {
   background-image: repeating-conic-gradient(
-    LightGrey 0deg,
-    LightGrey 90deg,
+    lightgrey 0deg,
+    lightgrey 90deg,
     white 90deg,
     white 180deg,
-    LightGrey 180deg,
-    LightGrey 270deg,
+    lightgrey 180deg,
+    lightgrey 270deg,
     white 270deg,
     white 360deg
   );
   background-size: 24px 24px;
-
 }
