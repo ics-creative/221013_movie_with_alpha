@@ -8,8 +8,7 @@
   margin: 0 auto;
 }
 
-video,
-img {
+.bg {
   background-image: repeating-conic-gradient(
     lightgrey 0deg,
     lightgrey 90deg,
@@ -20,5 +19,23 @@ img {
     white 270deg,
     white 360deg
   );
+
   background-size: 24px 24px;
+  transform: scaleZ(1);
+  position: relative;
+  width: 100%;
+  height: 100%;
+  img,
+  video {
+    display: block;
+    position: absolute;
+  }
+  &.donut{
+    width: 1080px;
+    height: 1080px;
+  }
+  &.ikura {
+    width: 256px;
+    height: 256px;
+  }
 }
