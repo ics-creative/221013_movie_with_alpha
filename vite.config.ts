@@ -10,6 +10,7 @@ export default defineConfig({
       },
     },
   },
+  base:"/221013_movie_with_alpha",
   server: {
     port: 3344,
   },
